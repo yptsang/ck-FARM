@@ -25,3 +25,23 @@ main_func(data, alpha, lambda)
     Maximum number of clusters for tuning fuzzy membership functions
   }
 }
+
+\examples{
+library(Matrix)
+library(arules)
+library(ca)
+library(ggplot2)
+library(factoextra)
+
+data  <- read.table(file="filePath", header=TRUE)
+
+n <- dim(data)[1]
+p <- dim(data)[2]
+max_clu <- 4
+lambda <- 0.7
+alpha <- numeric(p)+n/50
+
+corrana_data(data)
+mem_fun_result(data)
+result <- main_func(data, alpha, lambda)
+}
