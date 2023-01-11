@@ -1,4 +1,0 @@
-exportPattern("^[[:alpha:]]+")
-
-importFrom("stats", "kmeans", "pchisq", "quantile")
-importFrom("utils", "data")
