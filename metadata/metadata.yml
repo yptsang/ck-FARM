@@ -1,0 +1,33 @@
+metadata_version: 1
+name: 'ck-FARM: An R Package to Discover Big Data Association for Business Intelligence'
+description: The proposed algorithm, namely ck-FARM, is deployed in the R programming
+  environment with applying five existing libraries, including Matrix, arules, ca,
+  ggplots, and factoextra. Thus, the statistical significance between process parameters
+  can be examined, while fuzzy association rules (FARs) can be automatically built.
+  Based on the fuzzy relationship of process parameters, corresponding business management/re-engineering
+  strategies can be established to strengthen business intelligence capabilities.
+tags:
+- Association Rules Mining
+- Big data
+- Business Intelligence
+- R
+authors:
+- name: G.T.S. Ho
+  affiliations:
+  - name: Department of Supply Chain and Information Management, The Hang Seng University
+      of Hong Kong, Hong Kong
+- name: Y.P. Tsang
+  affiliations:
+  - name: Department of Industrial and Systems Engineering, The Hong Kong Polytechnic
+      University, Hong Kong
+- name: Qin Wu
+  affiliations:
+  - name: Department of Statistics, School of Mathematical Sciences, South China Normal
+      University, Guanzhou, GuangDong, P.R. China
+- name: Valerie Tang
+  affiliations:
+  - name: Department of Supply Chain and Information Management, The Hang Seng University
+      of Hong Kong, Hong Kong
+corresponding_contributor:
+  name: Y.P. Tsang
+  email: yungpo.tsang@polyu.edu.hk
